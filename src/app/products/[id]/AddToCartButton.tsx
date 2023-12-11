@@ -8,7 +8,7 @@ interface AddToCartButtonProps {
 export default function AddToCartButton({productId}: AddToCartButtonProps) {
   return (
     <div className="flex items-center gap-2">
-      <button 
+      <button
         className="btn btn-primary"
         onClick={() => {}}
       >
